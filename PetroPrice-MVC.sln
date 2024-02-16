@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetroPrice-MVC", "PetroPrice-MVC.csproj", "{74531D05-902D-4EDA-8F00-E2589F0E5367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetrolPrice-MVC.Tests", "..\PetrolPrice-MVC.Tests\PetrolPrice-MVC.Tests.csproj", "{12272EE3-1BFF-49D3-ACB9-490E4885C04B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74531D05-902D-4EDA-8F00-E2589F0E5367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74531D05-902D-4EDA-8F00-E2589F0E5367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74531D05-902D-4EDA-8F00-E2589F0E5367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74531D05-902D-4EDA-8F00-E2589F0E5367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12272EE3-1BFF-49D3-ACB9-490E4885C04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12272EE3-1BFF-49D3-ACB9-490E4885C04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12272EE3-1BFF-49D3-ACB9-490E4885C04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12272EE3-1BFF-49D3-ACB9-490E4885C04B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE8BBD83-82C1-46B1-9C9E-A63E2C948635}
+	EndGlobalSection
+EndGlobal

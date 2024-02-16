@@ -1,0 +1,55 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.edit-petrolStation-button {
+    margin-top: 0.3rem;
+}
+
+.card-title {
+    height: 48px;
+}
+
+.card-address-text {
+    height: 48px;
+}
+
+.card {
+    margin:3px
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+#container-main {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.list-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.form-custom {
+    margin-top: 1.3rem;
+}

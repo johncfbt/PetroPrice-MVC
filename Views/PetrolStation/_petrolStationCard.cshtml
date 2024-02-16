@@ -1,0 +1,21 @@
+﻿@model PetroPrice_MVC.Models.PetrolStation
+
+@{
+    var MainDigits = (Math.Floor(Model.Price) / 100).ToString("N2");
+    var LastDigit = (int)((Model.Price - Math.Truncate(Model.Price)) * 10);
+}
+
+<div class="card" style="width: 18rem; height:280px">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text">$@MainDigits<sup>@LastDigit</sup></p>
+        <p class="card-address-text"><i class="bi bi-geo-alt"></i> @Model.Address</p>
+        <a href="/PetrolStation/Details/@Model.Id" class="btn btn-info">Details</a>
+        <a href="/PetrolStation/Edit/@Model.Id" class="btn btn-warning">Edit</a>
+        <a href="/PetrolStation/Delete/@Model.Id" class="btn btn-danger">Delete</a>
+        <!-- Button trigger modal -->
+        <button value="@Model.Id" type="button" class="btn btn-primary edit-petrolStation-button" data-bs-toggle="modal" data-bs-target="#editModal">
+            Modal Edit
+        </button>
+    </div>
+</div>
